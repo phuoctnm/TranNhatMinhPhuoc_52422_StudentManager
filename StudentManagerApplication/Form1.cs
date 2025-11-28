@@ -77,7 +77,7 @@ namespace StudentManagerApplication
             studentList.Add(s);
             LoadDataToGrid();
         }
-
+        // Xử lý sự kiện khi click vào một ô trong DataGridView
         private void dgvStudents_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
