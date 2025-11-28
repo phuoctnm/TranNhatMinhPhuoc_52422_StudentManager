@@ -63,111 +63,117 @@
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(3, 0);
+            this.lblID.Location = new System.Drawing.Point(4, 0);
+            this.lblID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(47, 16);
+            this.lblID.Size = new System.Drawing.Size(45, 31);
             this.lblID.TabIndex = 0;
             this.lblID.Text = "Mã SV";
             // 
             // txtID
             // 
             this.txtID.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtID.Location = new System.Drawing.Point(57, 1);
-            this.txtID.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.txtID.Location = new System.Drawing.Point(79, 2);
+            this.txtID.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(215, 22);
+            this.txtID.Size = new System.Drawing.Size(296, 29);
             this.txtID.TabIndex = 1;
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(278, 0);
+            this.lblName.Location = new System.Drawing.Point(383, 0);
+            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(49, 16);
+            this.lblName.Size = new System.Drawing.Size(74, 25);
             this.lblName.TabIndex = 2;
             this.lblName.Text = " Họ tên";
             // 
             // lblClass
             // 
             this.lblClass.AutoSize = true;
-            this.lblClass.Location = new System.Drawing.Point(83, 107);
+            this.lblClass.Location = new System.Drawing.Point(114, 160);
+            this.lblClass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClass.Name = "lblClass";
-            this.lblClass.Size = new System.Drawing.Size(0, 16);
+            this.lblClass.Size = new System.Drawing.Size(0, 25);
             this.lblClass.TabIndex = 4;
             // 
             // txtName
             // 
             this.txtName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtName.Location = new System.Drawing.Point(403, 1);
-            this.txtName.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.txtName.Location = new System.Drawing.Point(555, 2);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(223, 22);
+            this.txtName.Size = new System.Drawing.Size(307, 29);
             this.txtName.TabIndex = 5;
             // 
             // labelClass
             // 
             this.labelClass.AutoSize = true;
-            this.labelClass.Location = new System.Drawing.Point(3, 20);
+            this.labelClass.Location = new System.Drawing.Point(4, 31);
+            this.labelClass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelClass.Name = "labelClass";
-            this.labelClass.Size = new System.Drawing.Size(30, 16);
+            this.labelClass.Size = new System.Drawing.Size(45, 25);
             this.labelClass.TabIndex = 6;
             this.labelClass.Text = "Lớp";
             // 
             // labelGender
             // 
             this.labelGender.AutoSize = true;
-            this.labelGender.Location = new System.Drawing.Point(632, 0);
+            this.labelGender.Location = new System.Drawing.Point(870, 0);
+            this.labelGender.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGender.Name = "labelGender";
-            this.labelGender.Size = new System.Drawing.Size(54, 16);
+            this.labelGender.Size = new System.Drawing.Size(82, 25);
             this.labelGender.TabIndex = 7;
             this.labelGender.Text = "Giới tính";
             // 
             // txtClass
             // 
             this.txtClass.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtClass.Location = new System.Drawing.Point(57, 21);
-            this.txtClass.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.txtClass.Location = new System.Drawing.Point(79, 33);
+            this.txtClass.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtClass.Name = "txtClass";
-            this.txtClass.Size = new System.Drawing.Size(215, 22);
+            this.txtClass.Size = new System.Drawing.Size(296, 29);
             this.txtClass.TabIndex = 8;
             // 
             // cboGender
             // 
             this.cboGender.FormattingEnabled = true;
-            this.cboGender.Location = new System.Drawing.Point(716, 1);
-            this.cboGender.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.cboGender.Location = new System.Drawing.Point(986, 2);
+            this.cboGender.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.cboGender.Name = "cboGender";
-            this.cboGender.Size = new System.Drawing.Size(69, 24);
+            this.cboGender.Size = new System.Drawing.Size(93, 32);
             this.cboGender.TabIndex = 9;
             // 
             // dgvStudents
             // 
             this.dgvStudents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvStudents.Location = new System.Drawing.Point(0, 142);
-            this.dgvStudents.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.dgvStudents.Location = new System.Drawing.Point(0, 213);
+            this.dgvStudents.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.dgvStudents.Name = "dgvStudents";
             this.dgvStudents.RowHeadersWidth = 62;
             this.dgvStudents.RowTemplate.Height = 28;
-            this.dgvStudents.Size = new System.Drawing.Size(809, 399);
+            this.dgvStudents.Size = new System.Drawing.Size(1112, 598);
             this.dgvStudents.TabIndex = 15;
             this.dgvStudents.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudents_CellClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(278, 20);
+            this.label1.Location = new System.Drawing.Point(383, 31);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 16);
+            this.label1.Size = new System.Drawing.Size(148, 25);
             this.label1.TabIndex = 17;
             this.label1.Text = "Điểm trung bình";
             // 
             // txtScore
             // 
             this.txtScore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtScore.Location = new System.Drawing.Point(403, 21);
-            this.txtScore.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.txtScore.Location = new System.Drawing.Point(555, 33);
+            this.txtScore.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.txtScore.Name = "txtScore";
-            this.txtScore.Size = new System.Drawing.Size(223, 22);
+            this.txtScore.Size = new System.Drawing.Size(307, 29);
             this.txtScore.TabIndex = 18;
             // 
             // groupBox1
@@ -175,8 +181,10 @@
             this.groupBox1.Controls.Add(this.tableLayoutPanel1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(809, 61);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1112, 92);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sinh viên";
@@ -206,21 +214,23 @@
             this.tableLayoutPanel1.Controls.Add(this.cboGender, 10, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblID, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 26);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(803, 40);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1104, 62);
             this.tableLayoutPanel1.TabIndex = 19;
             // 
             // btnSort
             // 
             this.btnSort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.btnSort.Image = ((System.Drawing.Image)(resources.GetObject("btnSort.Image")));
-            this.btnSort.Location = new System.Drawing.Point(477, 3);
+            this.btnSort.Location = new System.Drawing.Point(653, 4);
+            this.btnSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSort.Name = "btnSort";
-            this.btnSort.Size = new System.Drawing.Size(109, 33);
+            this.btnSort.Size = new System.Drawing.Size(150, 50);
             this.btnSort.TabIndex = 19;
             this.btnSort.Text = "Sắp xếp";
             this.btnSort.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -232,9 +242,10 @@
             // 
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.btnClear.Image = ((System.Drawing.Image)(resources.GetObject("btnClear.Image")));
-            this.btnClear.Location = new System.Drawing.Point(244, 3);
+            this.btnClear.Location = new System.Drawing.Point(334, 4);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(113, 33);
+            this.btnClear.Size = new System.Drawing.Size(155, 50);
             this.btnClear.TabIndex = 21;
             this.btnClear.Text = "Làm mới";
             this.btnClear.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -245,10 +256,10 @@
             // btnSave
             // 
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
-            this.btnSave.Location = new System.Drawing.Point(148, 40);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnSave.Location = new System.Drawing.Point(203, 60);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(111, 33);
+            this.btnSave.Size = new System.Drawing.Size(153, 50);
             this.btnSave.TabIndex = 14;
             this.btnSave.Text = "Lưu File";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -260,10 +271,10 @@
             // 
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(171, 1);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnDelete.Location = new System.Drawing.Point(234, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(67, 35);
+            this.btnDelete.Size = new System.Drawing.Size(92, 52);
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -276,9 +287,10 @@
             // 
             this.btnAverage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(125)))), ((int)(((byte)(50)))));
             this.btnAverage.Image = ((System.Drawing.Image)(resources.GetObject("btnAverage.Image")));
-            this.btnAverage.Location = new System.Drawing.Point(3, 42);
+            this.btnAverage.Location = new System.Drawing.Point(4, 62);
+            this.btnAverage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAverage.Name = "btnAverage";
-            this.btnAverage.Size = new System.Drawing.Size(139, 33);
+            this.btnAverage.Size = new System.Drawing.Size(191, 50);
             this.btnAverage.TabIndex = 20;
             this.btnAverage.Text = "Tính điểm TB";
             this.btnAverage.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -291,10 +303,10 @@
             this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
             this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch.Location = new System.Drawing.Point(363, 1);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnSearch.Location = new System.Drawing.Point(497, 2);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(108, 33);
+            this.btnSearch.Size = new System.Drawing.Size(148, 50);
             this.btnSearch.TabIndex = 13;
             this.btnSearch.Text = "Tìm kiếm";
             this.btnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -306,9 +318,10 @@
             // 
             this.btnStatistic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.btnStatistic.Image = ((System.Drawing.Image)(resources.GetObject("btnStatistic.Image")));
-            this.btnStatistic.Location = new System.Drawing.Point(592, 3);
+            this.btnStatistic.Location = new System.Drawing.Point(811, 4);
+            this.btnStatistic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStatistic.Name = "btnStatistic";
-            this.btnStatistic.Size = new System.Drawing.Size(117, 33);
+            this.btnStatistic.Size = new System.Drawing.Size(161, 50);
             this.btnStatistic.TabIndex = 22;
             this.btnStatistic.Text = "Thống kê";
             this.btnStatistic.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -319,10 +332,10 @@
             // btnOpen
             // 
             this.btnOpen.Image = ((System.Drawing.Image)(resources.GetObject("btnOpen.Image")));
-            this.btnOpen.Location = new System.Drawing.Point(265, 40);
-            this.btnOpen.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnOpen.Location = new System.Drawing.Point(364, 60);
+            this.btnOpen.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(84, 33);
+            this.btnOpen.Size = new System.Drawing.Size(116, 50);
             this.btnOpen.TabIndex = 16;
             this.btnOpen.Text = "Mở file";
             this.btnOpen.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -334,10 +347,10 @@
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(204)))), ((int)(((byte)(102)))));
             this.btnUpdate.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.Image")));
-            this.btnUpdate.Location = new System.Drawing.Point(90, 1);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnUpdate.Location = new System.Drawing.Point(123, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 35);
+            this.btnUpdate.Size = new System.Drawing.Size(103, 52);
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "Sửa";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -349,10 +362,10 @@
             // 
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(166)))), ((int)(((byte)(255)))));
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.Location = new System.Drawing.Point(3, 1);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnAdd.Location = new System.Drawing.Point(4, 2);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(81, 33);
+            this.btnAdd.Size = new System.Drawing.Size(111, 50);
             this.btnAdd.TabIndex = 10;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -373,21 +386,22 @@
             this.flowLayoutPanel1.Controls.Add(this.btnSave);
             this.flowLayoutPanel1.Controls.Add(this.btnOpen);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 61);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 92);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(809, 79);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1112, 118);
             this.flowLayoutPanel1.TabIndex = 24;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 541);
+            this.ClientSize = new System.Drawing.Size(1112, 812);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvStudents);
             this.Controls.Add(this.lblClass);
-            this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

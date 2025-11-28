@@ -19,7 +19,7 @@ namespace StudentManagerApplication
             InitializeComponent();
 
         }
-
+        // Hàm khởi tạo Form
         private void Form1_Load(object sender, EventArgs e)
         {
             cboGender.Items.Add("Nam");
