@@ -30,6 +30,7 @@ namespace StudentManagerApplication
             cboGender.SelectedIndex = 0; // chọn "Nam"
 
         }
+        // Hàm tải dữ liệu từ danh sách lên DataGridView
         private void LoadDataToGrid()
         {
             dgvStudents.DataSource = null;
