@@ -95,7 +95,7 @@ namespace StudentManagerApplication
                 txtScore.Text = row.Cells["Score"].Value.ToString();
             }
         }
-
+        // Xử lý sự kiện nút Cập nhật
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             // 1. Lấy Mã SV từ ô txtID để biết cần sửa ai
