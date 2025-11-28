@@ -126,7 +126,7 @@ namespace StudentManagerApplication
                 MessageBox.Show("Không tìm thấy sinh viên để cập nhật. Hãy chọn một sinh viên từ bảng.");
             }
         }
-
+        // Xử lý sự kiện nút Lưu
         private void btnSave_Click(object sender, EventArgs e)
         {
             // 1. Tạo hộp thoại Save File

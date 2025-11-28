@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace StudentManagerApplication
-{
+{// Lớp đại diện cho một sinh viên
     public class Student
     {
         // Định nghĩa các thuộc tính dựa trên thiết kế 
