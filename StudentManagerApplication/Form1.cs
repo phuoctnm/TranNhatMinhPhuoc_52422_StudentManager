@@ -37,7 +37,7 @@ namespace StudentManagerApplication
             dgvStudents.DataSource = studentList;
         }
 
-
+        // Xử lý sự kiện nút Thêm
         private void btnAdd_Click(object sender, EventArgs e)
         {
             // Kiểm tra nhập đầy đủ thông tin
